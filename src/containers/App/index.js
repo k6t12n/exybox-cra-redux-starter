@@ -12,7 +12,7 @@ const App = () => {
 
     useEffect(() => {
         
-        dispatch(setWelcomeMsg('Edit src/App.js and save to reload.'))
+        dispatch(setWelcomeMsg('This is message send from redux. Go to /admin to see how auth work...'))
         
     }, [dispatch])
 
@@ -25,11 +25,9 @@ const App = () => {
                 </p>
                 <a
                 className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/admin"
                 >
-                Learn React
+                Admin page
                 </a>
             </header>
         </div>
